@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IAShots photographic prompt",
+  "type": "object",
+  "required": [
+    "Subject",
+    "Clothing",
+    "Pose",
+    "Setting",
+    "Camera Settings",
+    "Lighting",
+    "Effects",
+    "Background",
+    "Details",
+    "Quality"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "Subject": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "Clothing": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "Pose": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "Setting": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "Camera Settings": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "Lighting": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "Effects": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "Background": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "Details": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "Quality": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    }
+  }
+}
